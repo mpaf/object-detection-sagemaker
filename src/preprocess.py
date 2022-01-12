@@ -94,4 +94,4 @@ if __name__=='__main__':
     
     # move files to be picked up by SageMaker Processing Job Outputs
     shutil.move('./birds_ssd_sample_train.rec', '/opt/ml/processing/output/train/birds_ssd_sample_train.rec')
-    shutil.move('./birds_ssd_sample_val.rec', '/opt/ml/processing/output/train/birds_ssd_sample_val.rec')
+    shutil.move('./birds_ssd_sample_val.rec', '/opt/ml/processing/output/validation/birds_ssd_sample_val.rec')
